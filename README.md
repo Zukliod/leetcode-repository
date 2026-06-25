@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Zukliod/leetcode-repository/tree/master/0075-sort-colors) |
+| [0876-middle-of-the-linked-list](https://github.com/Zukliod/leetcode-repository/tree/master/0876-middle-of-the-linked-list) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Zukliod/leetcode-repository/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Zukliod/leetcode-repository/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Binary Search
@@ -48,4 +49,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Zukliod/leetcode-repository/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+## Linked List
+|  |
+| ------- |
+| [0876-middle-of-the-linked-list](https://github.com/Zukliod/leetcode-repository/tree/master/0876-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
