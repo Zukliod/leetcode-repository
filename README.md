@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Zukliod/leetcode-repository/tree/master/0011-container-with-most-water) |
 | [0075-sort-colors](https://github.com/Zukliod/leetcode-repository/tree/master/0075-sort-colors) |
 | [2126-destroying-asteroids](https://github.com/Zukliod/leetcode-repository/tree/master/2126-destroying-asteroids) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Zukliod/leetcode-repository/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Zukliod/leetcode-repository/tree/master/0011-container-with-most-water) |
 | [2126-destroying-asteroids](https://github.com/Zukliod/leetcode-repository/tree/master/2126-destroying-asteroids) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Zukliod/leetcode-repository/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Zukliod/leetcode-repository/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -32,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Zukliod/leetcode-repository/tree/master/0011-container-with-most-water) |
 | [0075-sort-colors](https://github.com/Zukliod/leetcode-repository/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Zukliod/leetcode-repository/tree/master/0141-linked-list-cycle) |
 | [0876-middle-of-the-linked-list](https://github.com/Zukliod/leetcode-repository/tree/master/0876-middle-of-the-linked-list) |
