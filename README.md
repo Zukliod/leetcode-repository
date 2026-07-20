@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Zukliod/leetcode-repository/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Zukliod/leetcode-repository/tree/master/0033-search-in-rotated-sorted-array) |
 | [0075-sort-colors](https://github.com/Zukliod/leetcode-repository/tree/master/0075-sort-colors) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/Zukliod/leetcode-repository/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/Zukliod/leetcode-repository/tree/master/0162-find-peak-element) |
 | [2126-destroying-asteroids](https://github.com/Zukliod/leetcode-repository/tree/master/2126-destroying-asteroids) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Zukliod/leetcode-repository/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Zukliod/leetcode-repository/tree/master/0033-search-in-rotated-sorted-array) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/Zukliod/leetcode-repository/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/Zukliod/leetcode-repository/tree/master/0162-find-peak-element) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Zukliod/leetcode-repository/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Zukliod/leetcode-repository/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
