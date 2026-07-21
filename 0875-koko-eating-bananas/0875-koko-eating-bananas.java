@@ -1,28 +1,22 @@
 class Solution {
-    public boolean check(int k,int[] piles,int h){
-        int hours = 0;
-        for(int i = 0; i<piles.length;i++){
-            hours+= Math.ceil((double)piles[i]/(double)k);            
-        }
-        if(hours<= h)
-        return true;
-        else
-        return false;
-    }
+
     public int minEatingSpeed(int[] piles, int h) {
-        int max = piles[0];
-        int ans = -1;
-        for(int i :piles){
-            if(i>max){
-                max = i;
+        int left = 1, right = 1;
+        for (int pile : piles) {
+            right = Math.max(right, pile);
+        }
+        while (left < right) {
+            int middle = (left + right) / 2;
+            int hourSpent = 0;
+            for (int pile : piles) {
+                hourSpent += Math.ceil((double) pile / middle);
+            }
+            if (hourSpent <= h) {
+                right = middle;
+            } else {
+                left = middle + 1;
             }
         }
-        for(int i = 1;i<=max;i++){
-            if(check(i,piles,h)){
-                ans = i;
-                break;
-            }
-        }
-        return ans;
+        return right;
     }
 }
