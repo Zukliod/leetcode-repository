@@ -91,4 +91,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Zukliod/leetcode-repository/tree/master/0410-split-array-largest-sum) |
+## Database
+|  |
+| ------- |
+| [0180-consecutive-numbers](https://github.com/Zukliod/leetcode-repository/tree/master/0180-consecutive-numbers) |
 <!---LeetCode Topics End-->
