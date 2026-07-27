@@ -1,24 +1,24 @@
 class Solution {
     public int maxWidthRamp(int[] nums) {
-        int[] max = new int[nums.length];
-
-        max[nums.length-1] = nums[nums.length-1];
-
-        for(int i=nums.length-2; i>=0; i--){
-            max[i] = Math.max(nums[i], max[i+1]);
-        }
-
-        int l=0,
-            r=0,
-            ramp=0;
+        int n = nums.length;
+        Stack<Integer> stack = new Stack<>();
         
-        while(r<nums.length){
-            while(l<r && nums[l] > max[r]){
-                l++;
+        // Step 1: Build a decreasing stack of indices
+        for (int i = 0; i < n; ++i) {
+            if (stack.isEmpty() || nums[stack.peek()] > nums[i]) {
+                stack.push(i);
             }
-            ramp = Math.max(ramp, r-l);
-            r++;
         }
-        return ramp;
+        
+        int maxWidth = 0;
+        
+        // Step 2: Traverse from the end and find maximum width ramp
+        for (int j = n - 1; j >= 0; --j) {
+            while (!stack.isEmpty() && nums[stack.peek()] <= nums[j]) {
+                maxWidth = Math.max(maxWidth, j - stack.pop());
+            }
+        }
+        
+        return maxWidth;
     }
 }
