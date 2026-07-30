@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Zukliod/leetcode-repository/tree/master/0050-powx-n) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Zukliod/leetcode-repository/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Zukliod/leetcode-repository/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Greedy
@@ -110,4 +111,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0962-maximum-width-ramp](https://github.com/Zukliod/leetcode-repository/tree/master/0962-maximum-width-ramp) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/Zukliod/leetcode-repository/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
