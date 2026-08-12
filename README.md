@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Zukliod/leetcode-repository/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/Zukliod/leetcode-repository/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Zukliod/leetcode-repository/tree/master/0070-climbing-stairs) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Zukliod/leetcode-repository/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Zukliod/leetcode-repository/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Zukliod/leetcode-repository/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Zukliod/leetcode-repository/tree/master/0070-climbing-stairs) |
 | [0410-split-array-largest-sum](https://github.com/Zukliod/leetcode-repository/tree/master/0410-split-array-largest-sum) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Zukliod/leetcode-repository/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -121,4 +123,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Zukliod/leetcode-repository/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Zukliod/leetcode-repository/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
