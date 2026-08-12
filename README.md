@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Zukliod/leetcode-repository/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/Zukliod/leetcode-repository/tree/master/0070-climbing-stairs) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Zukliod/leetcode-repository/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Zukliod/leetcode-repository/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Greedy
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Zukliod/leetcode-repository/tree/master/0070-climbing-stairs) |
 | [0410-split-array-largest-sum](https://github.com/Zukliod/leetcode-repository/tree/master/0410-split-array-largest-sum) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Zukliod/leetcode-repository/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Enumeration
@@ -115,4 +117,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Zukliod/leetcode-repository/tree/master/0050-powx-n) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Zukliod/leetcode-repository/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
