@@ -11,40 +11,44 @@ class Solution {
             Arrays.fill(board[i], '.');
         }
 
-        backtrack(0, board, res, n);
+        boolean[] cols = new boolean[n];
+        boolean[] diag1 = new boolean[2 * n - 1]; // row + col
+        boolean[] diag2 = new boolean[2 * n - 1]; // (n - 1) + row - col
+
+        backtrack(0, board, res, n, cols, diag1, diag2);
         return res;
     }
 
-    private void backtrack(int row, char[][] board, List<List<String>> res, int n) {
+    private void backtrack(int row, char[][] board, List<List<String>> res, int n,
+                           boolean[] cols, boolean[] diag1, boolean[] diag2) {
         if (row == n) {
             res.add(construct(board));
             return;
         }
 
         for (int col = 0; col < n; col++) {
-            if (isValid(board, row, col, n)) {
-                board[row][col] = 'Q';
-                backtrack(row + 1, board, res, n);
-                board[row][col] = '.';
+            int d1 = row + col;
+            int d2 = (n - 1) + row - col;
+
+            // O(1) conflict check
+            if (cols[col] || diag1[d1] || diag2[d2]) {
+                continue;
             }
-        }
-    }
 
-    private boolean isValid(char[][] board, int row, int col, int n) {
-        
-        for (int i = 0; i < row; i++) {
-            if (board[i][col] == 'Q') return false;
-        }
+            // Place queen and mark paths
+            board[row][col] = 'Q';
+            cols[col] = true;
+            diag1[d1] = true;
+            diag2[d2] = true;
 
-        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
-            if (board[i][j] == 'Q') return false;
-        }
+            backtrack(row + 1, board, res, n, cols, diag1, diag2);
 
-        for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++) {
-            if (board[i][j] == 'Q') return false;
+            // Backtrack
+            board[row][col] = '.';
+            cols[col] = false;
+            diag1[d1] = false;
+            diag2[d2] = false;
         }
-
-        return true;
     }
 
     private List<String> construct(char[][] board) {
