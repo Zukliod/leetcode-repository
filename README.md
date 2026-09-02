@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Zukliod/leetcode-repository/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Zukliod/leetcode-repository/tree/master/0033-search-in-rotated-sorted-array) |
 | [0040-combination-sum-ii](https://github.com/Zukliod/leetcode-repository/tree/master/0040-combination-sum-ii) |
+| [0051-n-queens](https://github.com/Zukliod/leetcode-repository/tree/master/0051-n-queens) |
 | [0075-sort-colors](https://github.com/Zukliod/leetcode-repository/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Zukliod/leetcode-repository/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Zukliod/leetcode-repository/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -138,4 +139,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/Zukliod/leetcode-repository/tree/master/0040-combination-sum-ii) |
+| [0051-n-queens](https://github.com/Zukliod/leetcode-repository/tree/master/0051-n-queens) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/Zukliod/leetcode-repository/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
